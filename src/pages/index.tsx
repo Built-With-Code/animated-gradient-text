@@ -6,9 +6,7 @@ export default function Home() {
       <section className="min-h-screen bg-black py-20">
         <div className="flex flex-col gap-4 items-center">
           <h1 className="text-white text-6xl font-semibold">iPad Pro</h1>
-          <p className="gradient-text text-4xl font-medium text-transparent animate-gradient">
-            Supercharged by
-          </p>
+          <p className="text-white text-4xl font-medium">Supercharged by</p>
           <div className="w-24 h-24 relative">
             <Image
               src="/m2-logo.png"
